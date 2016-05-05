@@ -11,10 +11,12 @@ USING_NS_CC;
 class HelloWorld : public cocos2d::LayerColor
 {
 public:
-    Sprite* snumber;
-    Sprite* anumber;
-    Sprite* bnumber;
-    Sprite* cnumber;
+    Sprite* snumber;    //number to move
+    Sprite* anumber;    //static number 1
+    Sprite* bnumber;    //statuc number 2
+    Sprite* cnumber;    //static number 3
+    
+    
     std::vector<int> _originalNumber;
     std::vector<int>    _number;
     int isdeleted =0;

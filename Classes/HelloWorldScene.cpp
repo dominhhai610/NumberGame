@@ -84,10 +84,6 @@ bool HelloWorld::init()
 
 void HelloWorld::gameLogic(float dt){
     _number = _originalNumber;
-//    this->removeChild(snumber);
-//    this->removeChild(anumber);
-//    this->removeChild(bnumber);
-//    this->removeChild(cnumber);
     this->removeChildByTag(9);
     this->numbers();
 }
